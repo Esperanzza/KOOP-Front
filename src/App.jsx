@@ -26,7 +26,7 @@ function App() {
   return (
     <Auth0Provider
       domain='koopteam.us.auth0.com'
-      clientId='QsbyQ1H5gIb13DYhXUDXdjny5BAv5WqN'
+      clientId='UiX3IG7vPOQPoAJNOTdN7XPUZ3xOy8ME'
       redirectUri='http://localhost:3000/admin'
       audience= 'api-auteticacion-koop'
     >

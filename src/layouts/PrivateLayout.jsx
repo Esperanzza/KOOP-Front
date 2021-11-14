@@ -24,7 +24,7 @@ const PrivateLayout = ({ children }) => {
       // 1. pedir token a auth0
       setLoadingUserInformation(true);
       const accessToken = await getAccessTokenSilently({
-        audience: `api-autenticacion-concesionario-mintic`,
+        audience: `api-auteticacion-koop`,
       });
       // 2. recibir token de auth0
       localStorage.setItem('token', accessToken);
@@ -45,7 +45,7 @@ const PrivateLayout = ({ children }) => {
     };
     if (isAuthenticated) {
       fetchAuth0Token();
-    }
+    } 
   }, [isAuthenticated, getAccessTokenSilently, logout, setUserData]);
 
   if (isLoading || loadingUserInformation)
