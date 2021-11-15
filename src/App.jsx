@@ -12,7 +12,7 @@ import AuthLayout from 'layouts/AuthLayout';
 import { DarkModeContext } from 'context/darkMode';
 import { Auth0Provider } from '@auth0/auth0-react';
 import Ventas from 'pages/admin/Ventas';
-import Usuarios from 'pages/admin/Usuarios';
+import Usuarios from 'pages/admin/Usuarios'
 import { UserContext } from 'context/userContext';
 import PrivateRoute from 'components/PrivateRoute';
 
