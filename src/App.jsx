@@ -26,7 +26,7 @@ function App() {
   return (
     <Auth0Provider
       domain='koopteam.us.auth0.com'
-      clientId='UiX3IG7vPOQPoAJNOTdN7XPUZ3xOy8ME'
+      clientId='QsbyQ1H5gIb13DYhXUDXdjny5BAv5WqN'
       redirectUri='https://powerful-eyrie-45070.herokuapp.com/admin'
       audience= 'api-auteticacion-koop'
     >
